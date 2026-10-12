@@ -6,3 +6,4 @@ ShreyainsSchool = "Student"     #pascal case
 
 shreyainsSchool = "Student"     #camel case
 
+shreyains_school = "Student"     #snake case
