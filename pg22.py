@@ -35,4 +35,4 @@ x = 12
 print(12/3)  #this will give float value
 
 
-#when user manually converts the datatypefrom one into another type this will called explicit type conversion or type casting.
+#when user manually converts the datatypefrom one into another type this will called explicit type conversion or type casting.Using inbuilt function
