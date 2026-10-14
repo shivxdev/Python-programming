@@ -97,3 +97,20 @@ if vsum == v:
     print(f"{v} is a perfect number")
 else:
     print("Not a perfect number")
+
+
+#10
+
+p = int(input("Enter a number :"))
+count = 0
+for i in range(1,p+1):
+    if p%i==0:
+        count = count + 1
+
+if count == 2:
+    print(f"{p} is a prime number")
+else:
+    print(f"{p} is not a prime number")
+
+#11
+
