@@ -75,4 +75,25 @@ print(f"The sum of odd numbers in the range is {odd}")
     print(f"The sum of odd and even numbers in the range is {odd} and {even} respectively")"""
 
 
-#8
+#8 print all factors of the number
+
+z = int(input("Enter a number :"))
+
+for i in range(1,z+1):
+    if z%i==0:
+        print(i)
+
+
+#9
+
+v = int(input("Enter a number :"))
+vsum = 0
+for i in range(1,v):
+    if v%i==0:
+        vsum = vsum + i
+
+
+if vsum == v:
+    print(f"{v} is a perfect number")
+else:
+    print("Not a perfect number")
