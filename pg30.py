@@ -47,13 +47,13 @@ osum = 0
 for i in range(1,ran+1):
     if i%2==0:
       esum = esum + i
-      print(f"The sum of even numbers in the range is {esum}")
-    elif i%2!=0:
-      osum = osum + i
-      print(f"The sum of odd numbers in the range is {osum}")
+    
     else:
-      print("Enter the valid range")
+      osum = osum + i
 
+
+print(f"The sum of even numbers in the range is {esum}")
+print(f"The sum of odd numbers in the range is {osum}")
 
 #Type 2
 
@@ -114,3 +114,38 @@ else:
 
 #11
 
+real = str(input("Enter a string to check if it is a palindrome: "))
+
+reverse = ""
+
+for i in range(len(real)-1,-1,-1):
+    reverse = reverse + real[i]
+
+if real == reverse:
+    print(f"{real} is a palindrome")
+else:
+    print(f"{real} is not a palindrome")
+
+
+#12
+
+string = str(input("Enter your string :"))
+
+char = 0
+dig = 0
+spchar = 0
+
+for i in string:
+    if i.isalpha():
+        char = char + 1
+       
+    elif i.isdigit():
+        dig = dig + 1
+      
+    else:
+        spchar = spchar + 1
+        
+
+print(f"Character: {char}")
+print(f"Digit: {dig}")
+print(f"Special character: {spchar}")
