@@ -2,7 +2,7 @@
 
 #Not DSA there are some types of data structures which we use to store,manage ,organize,manipulate data efficiently in python
 """
-LIST
+LIST.......[]
 TUPLES
 DICTIONARIES
 SET
