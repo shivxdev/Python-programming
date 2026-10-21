@@ -25,3 +25,19 @@ person1 = Human("srishti",18)
 person1.show()
 animal1.show()
 # person1.show()
+
+
+# multiple inheritance
+
+class glass:
+    material1 = "water"
+
+class glass2:
+    material2 = "softdrink"
+
+class glass3(glass,glass2):  #child can contain multiple parent
+    material3 = "both"
+
+obj = glass3()
+
+print(obj.material1)
