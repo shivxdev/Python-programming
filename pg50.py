@@ -30,7 +30,7 @@ animal1.show()
 # multiple inheritance
 
 class glass:
-    material1 = "water"
+    material1 = "water bottle"
 
 class glass2:
     material2 = "softdrink"
